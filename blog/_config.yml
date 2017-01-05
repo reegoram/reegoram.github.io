@@ -14,7 +14,7 @@ author:
   github_username:  reegoram
   linkedin_username: reegoram
 
-paginate: 2
+paginate: 10
 
 # Build settings
 markdown: kramdown
