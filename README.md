@@ -1,9 +1,14 @@
 # Credits
 
 This blog is built with [Jekyll](http://jekyllrb.com/ "Jekyll") and hosted by [GitHub Pages](https://pages.github.com/). 
-Design based on [Hyde Theme](https://github.com/poole/hyde) and [Minima](https://github.com/jekyll/minima)
+Design based on [Hyde Theme](https://github.com/poole/hyde) and [Minima](https://github.com/jekyll/minima).
+Icons are from [Font Awesome](http://fontawesome.io/ "Font Awesome Website").
 
 # License
+>[Font Awesome](http://fontawesome.io/ "Font Awesome Website") is fully open source and GPL friendly.
+
+The full details of how Font Awesome is Licensed [here](http://fontawesome.io/license/ "Font Awesome License Details").
+
 [Jekyll](http://jekyllrb.com/ "Jekyll"), [Minima](https://github.com/jekyll/minima) and [Hyde Theme](https://github.com/poole/hyde) is used under MIT License.
 
 ## The MIT License (MIT)
