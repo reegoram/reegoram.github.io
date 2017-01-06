@@ -15,6 +15,7 @@ body {
 
 header.site-header {
   background: #2196F3;
+  position: relative;
   z-index: 3;
 }
 
@@ -51,28 +52,51 @@ header.site-header .wrapper .description {
   text-align: justify;
 }
 
+header.site-header .wrapper .footer {
+  box-sizing: border-box;
+  font-size: 0.65rem;
+  padding: 0.5rem;
+  text-align: right;
+  width: 100%;
+  z-index: -1;
+}
+
+header.site-header .wrapper .footer p a {
+  color: #BDBDBD;
+  text-decoration: none;
+}
+
+header.site-header .wrapper .footer p a:hover {
+  color: #FFFFFF;
+  text-decoration: underline;
+}
+
+@media screen and (min-width: 56.625em) {
+  header.site-header .wrapper .footer {
+    bottom: 0;
+    position: absolute;
+  }
+}
+
 header.site-header .wrapper .media {
   display: block;
-  padding: 1em 0;
+  font-size: 1.2rem;
   width: 100%;
 }
 
 header.site-header .wrapper .media ul li {
   display: inline-block;
   list-style: none;
+  margin: 0.75rem;
 }
 
 header.site-header .wrapper .media ul li a {
-  color: #757575;
-  padding: 0.2em;
+  color: #212121;
   text-decoration: none;
 }
 
-@media screen and (min-width: 56.625em) {
-  header.site-header .wrapper .media {
-    bottom: 5%;
-    position: absolute;
-  }
+header.site-header .wrapper .media ul li a:hover {
+  color: #FFFFFF;
 }
 
 header.site-header .wrapper .title {
@@ -181,27 +205,6 @@ main .rss-subscribe a {
 }
 
 main .rss-subscribe a:hover {
-  color: #1976D2;
-  text-decoration: underline;
-}
-
-footer {
-  background: #BBDEFB;
-  bottom: 0;
-  box-sizing: border-box;
-  padding: 0.5rem;
-  position: absolute;
-  text-align: right;
-  width: 100%;
-  z-index: 0;
-}
-
-footer p a {
-  color: #2196F3;
-  text-decoration: none;
-}
-
-footer p a:hover {
   color: #1976D2;
   text-decoration: underline;
 }

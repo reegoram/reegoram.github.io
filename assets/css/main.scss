@@ -24,6 +24,7 @@ body{
 
 header.site-header{
     background: $primary_color;
+    position: relative;
     z-index: 3;
 
     .wrapper{
@@ -60,27 +61,52 @@ header.site-header{
             text-align: justify;
         }
 
+        .footer{
+            box-sizing: border-box;
+            font-size: 0.65rem;
+            padding: 0.5rem;
+            text-align: right;
+            width: 100%;
+            z-index: -1;
+            
+            p{
+                a{
+                    color: $divider_color;
+                    text-decoration: none;
+
+                    &:hover{
+                        color: $text_icons;
+                        text-decoration: underline;
+                    }
+                }
+            }
+
+            @media screen and (min-width: $small_width){
+                bottom: 0;
+                position: absolute;
+            }
+        }
+
         .media{
             display: block;
-            padding: 1em 0;
+            font-size: 1.2rem;
             width: 100%;
 
             ul{
                 li{
                     display: inline-block;
                     list-style: none;
+                    margin: 0.75rem;
 
                     a{
-                        color: $secundary_text;
-                        padding: 0.2em;
+                        color: $primary_text;
                         text-decoration: none;
+                        
+                        &:hover{
+                            color: $text_icons;
+                        }
                     }
                 }
-            }
-
-            @media screen and (min-width: $small_width){
-                bottom: 5%;
-                position: absolute;
             }
         }
 
@@ -193,27 +219,4 @@ main{
             }
         }
     }
-}
-
-footer{
-    background: $light_primary_color;
-    bottom: 0;
-    box-sizing: border-box;
-    padding: 0.5rem;
-    position: absolute;
-    text-align: right;
-    width: 100%;
-    z-index: 0;
-    
-    p{
-        a{
-            color: $primary_color;
-            text-decoration: none;
-
-            &:hover{
-                color: $dark_primary_color;
-                text-decoration: underline;
-            }
-        }
-    }   
 }
