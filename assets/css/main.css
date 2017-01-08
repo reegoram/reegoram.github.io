@@ -153,6 +153,7 @@ main .posts article h2 a:hover {
 }
 
 main .posts article p {
+  line-height: 1.25rem;
   padding: 1em 0;
   text-align: justify;
 }
@@ -178,11 +179,58 @@ main .wrapper article header p {
 
 main .wrapper article .post-content {
   color: #212121;
+  line-height: 1.35rem;
   padding: 1em;
+  text-align: justify;
+}
+
+main .wrapper article .post-content blockquote {
+  background: #BBDEFB;
+  border-left: 0.5rem solid #FF5252;
+  box-sizing: border-box;
+  font-style: italic;
+  padding: 1rem;
+}
+
+main .wrapper article .post-content dl {
+  padding: 0.5rem;
+}
+
+main .wrapper article .post-content dl dt {
+  color: #FF5252;
+  font-style: bold;
+  font-variant: small-caps;
+}
+
+main .wrapper article .post-content dl dd {
+  color: #757575;
+  font-style: italic;
+}
+
+main .wrapper article .post-content dl dd a {
+  color: #1976D2;
+  cursor: pointer;
 }
 
 main .wrapper article .post-content figure {
   margin: 1rem;
+}
+
+main .wrapper article .post-content h1, main .wrapper article .post-content h2, main .wrapper article .post-content h3, main .wrapper article .post-content h4, main .wrapper article .post-content h5, main .wrapper article .post-content h6 {
+  padding: 0.5rem 0;
+}
+
+main .wrapper article .post-content h2 {
+  color: #2196F3;
+}
+
+main .wrapper article .post-content p {
+  margin: 0.5rem 0;
+}
+
+main .wrapper article .post-content p a {
+  color: #1976D2;
+  cursor: pointer;
 }
 
 @media screen and (min-width: 56.625em) {

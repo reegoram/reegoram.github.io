@@ -161,6 +161,7 @@ main{
             }
 
             p{
+                line-height: 1.25rem;
                 padding: 1em 0;
                 text-align: justify;
             }
@@ -189,10 +190,65 @@ main{
             
             .post-content{
                 color: $primary_text;
+                line-height: 1.35rem;
                 padding: 1em;
+                text-align: justify;
+
+                blockquote{
+                    background: $light_primary_color;
+                    border-left: 0.5rem solid $accent_color;
+                    box-sizing: border-box;
+                    font-style: italic;
+                    padding: 1rem;
+                }
+                
+                dl{
+                    padding: 0.5rem;
+
+                    dt{
+                        color: $accent_color;
+                        font-style: bold;
+                        font-variant: small-caps;
+                    }
+
+                    dd{ 
+                        color: $secundary_text;
+                        font-style: italic;
+
+                        a{
+                            color: $dark_primary_color;
+                            cursor: pointer;
+                        }
+                    }
+                }
 
                 figure{
                     margin: 1rem;
+                }
+
+                h1, h2, h3, h4, h5, h6{
+                    padding: 0.5rem 0;
+                }
+
+                h2{
+                    color: $primary_color;
+                }
+
+                p{
+                    margin: 0.5rem 0;
+
+                    a{
+                        color: $dark_primary_color;
+                        cursor: pointer;
+                    }
+                }
+
+                ul{
+                    margin: 1rem 2rem;
+
+                    li{
+                        list-style: square;
+                    }
                 }
             }
         }
