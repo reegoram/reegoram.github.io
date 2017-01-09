@@ -2,6 +2,7 @@
 layout: post
 title: Nuevo comienzo
 excerpt: Es el comienzo de un nuevo año (pese al delay con el que he posteado esto, debido a que he tenido algunos inconvenientes con el desarrollo técnico de este blog, mismo que luego les comentaré con más detalle); la época se presta para reflexionar sobre lo pasado en nuestras vidas y vislumbrar lo que queremos ser/hacer en este año que comenzamos.
+categories: no-tech
 ---
 
 Es el comienzo de un nuevo año (pese al delay con el que he posteado esto, debido a que he tenido algunos inconvenientes con el desarrollo técnico de este blog, mismo que luego les comentaré con más detalle); la época se presta para reflexionar sobre lo pasado en nuestras vidas y vislumbrar lo que queremos ser/hacer en este año que comenzamos.
@@ -58,4 +59,4 @@ Esta debería ser una de las máximas de nuestra vida. Ama intensamente, enámor
 
 --Happy Coding and happy life :D
 
-Rigo Ramírez.
+@reegoram
