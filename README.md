@@ -1,15 +1,15 @@
 # Credits
 
-This blog is built with [Jekyll](http://jekyllrb.com/ "Jekyll"){:target="_blank"} and hosted by [GitHub Pages](https://pages.github.com/){:target="_blank"}. 
-Design based on [Hyde Theme](https://github.com/poole/hyde){:target="_blank"} and [Minima](https://github.com/jekyll/minima){:target="_blank"}.
-Icons are from [Font Awesome](http://fontawesome.io/ "Font Awesome Website"){:target="_blank"}.
+This blog is built with <a href="http://jekyllrb.com" target="_blank">Jekyll</a> and hosted by <a href="http://pages.github.com" target="_blank">GitHub Pages</a>. 
+Design based on <a href="http://github.com/poole/hyde" target="_blank">Hyde Theme</a> and <a href="http://github.com/jekyll/minima" target="_blank">Minima</a>
+Icons are from <a href="http://fontawesome.io" target="_blank">Font Awesome</a>.
 
 # License
->[Font Awesome](http://fontawesome.io/ "Font Awesome Website"){:target="_blank"} is fully open source and GPL friendly.
+><a href="http://fontawesome.io" target="_blank">Font Awesome Website</a> is fully open source and GPL friendly.
 
-The full details of how Font Awesome is Licensed [here](http://fontawesome.io/license/ "Font Awesome License Details"){:target="_blank"}.
+The full details of how Font Awesome is Licensed <a href="http://fontawesome.io/license" target="_blank" alt="Font Awesome License Details">here</a>.
 
-[Jekyll](http://jekyllrb.com/ "Jekyll"){:target="_blank"}, [Minima](https://github.com/jekyll/minima){:target="_blank"} and [Hyde Theme](https://github.com/poole/hyde){:target="_blank"} is used under MIT License.
+<a href="http://jekyllrb.com" target="_blank">Jekyll</a>, <a href="http://github.com/jekyll/minima" target="_blank">Minima</a> and <a href="http://github.com/poole/hyde" target="_blank">Hyde Theme</a> are used under MIT License.
 
 ## The MIT License (MIT)
 
