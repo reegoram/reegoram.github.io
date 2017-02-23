@@ -49,3 +49,11 @@ Y quedaría de la siguiente manera:
 <iframe height="auto" width="100%" src="../../demos/jQuery/remove-tr-dinamically.html"></iframe>
 
 Puedes ver el código aquí en mi [repositorio de GitHub](https://github.com/{{site.author.github_username}}/reegoram.github.io/blob/master/demos/jQuery/remove-tr-dinamically.html "Demo @ Github repository"){:target="_blank"}
+
+Cualquier duda o si encontraste una mejor forma de resolverlo, no dudes en contactarme.
+
+
+
+-Happy coding!
+
+@reegoram
