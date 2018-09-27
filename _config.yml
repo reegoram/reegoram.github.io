@@ -8,13 +8,14 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 permalink: /blog/:title/
 
 author:
-  name: 'Rigo Ramírez'
+  name: "Rigo Ramírez"
   email: ram_ri@outlook.com
   twitter_username: reegoram
   github_username:  reegoram
   linkedin_username: reegoram
 
 paginate: 7
+paginate_path: "/blog/page:num/"
 
 # Build settings
 markdown: kramdown
